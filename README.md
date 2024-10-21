@@ -59,23 +59,24 @@ It's recommended to use a virtual environment to manage dependencies.
 Windows:
 
     ```bash
-        venv\Scripts\activate
+    venv\Scripts\activate
     ```
 
 macOS/Linux:
 
     ```bash
-        source venv/bin/activate
+    source venv/bin/activate
     ```
 
 5. **Upgrade Pip**
 Ensure you have the latest version of pip.
 
     ```bash
-pip install --upgrade pip
+    pip install --upgrade pip
     ```
 
 6. **Install Dependencies**
+    
     ```bash
     pip install -r requirements.txt
     ```
@@ -85,12 +86,12 @@ Note: If you encounter any dependency issues, ensure that the versions specified
 
 After completing the installation steps, you can run the main application to start the drone's autonomous navigation.
 
-1. Ensure the Virtual Environment is Activated
-If not already activated, activate it as shown in the Installation section.
+1. Ensure the Virtual Environment is Activated. If not already activated, activate it as shown in the Installation section.
 
 2. Run the Application
+
     ```bash
-        python src/main.py
+    python src/main.py
     ```
     
 This will start the video capture from your webcam, perform object detection, update SLAM, and execute navigation actions based on the detected objects and drone's pose.
