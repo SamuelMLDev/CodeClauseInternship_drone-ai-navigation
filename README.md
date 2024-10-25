@@ -36,7 +36,7 @@ Follow the steps below to set up the project on your local machine.
    Open your terminal or command prompt and run:
 
    ```bash
-   git clone https://github.com/your-username/drone-ai.git
+   git clone https://github.com/SamuelMLDev/CodeClause_Internship_drone-ai-navigation.git
    ```
 
 
