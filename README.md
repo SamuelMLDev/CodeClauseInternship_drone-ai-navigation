@@ -91,7 +91,11 @@ After completing the installation steps, you can run the main application to sta
     ```bash
     python src/main.py
     ```
-    
+
+### Technologies Used
+
+Python, OpenCV, YOLOv5, NLTK, Flask, TensorFlow, PyTorch, Gym, Matplotlib, NumPy, Scikit-learn, Git, Visual Studio Code, SLAM.
+
 This will start the video capture from your webcam, perform object detection, update SLAM, and execute navigation actions based on the detected objects and drone's pose.
 
 3. Controls
