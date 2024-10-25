@@ -95,8 +95,9 @@ After completing the installation steps, you can run the main application to sta
 3. Controls
 Exit the Application: Press the q key in the video window to terminate the application.
 
+This will start the video capture from your webcam, perform object detection, update SLAM, and execute navigation actions based on the detected objects and drone's pose.
+
+
 ### Technologies Used
 
 Python, OpenCV, YOLOv5, NLTK, Flask, TensorFlow, PyTorch, Gym, Matplotlib, NumPy, Scikit-learn, Git, Visual Studio Code, SLAM.
-
-This will start the video capture from your webcam, perform object detection, update SLAM, and execute navigation actions based on the detected objects and drone's pose.
