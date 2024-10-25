@@ -9,7 +9,6 @@
 - [Installation](#installation)
 - [Usage](#usage)
 
-
 ## Overview
 
 The **Drone AI Autonomous Navigation System** is a comprehensive project aimed at enabling drones to navigate autonomously using computer vision and Simultaneous Localization and Mapping (SLAM). This system integrates object detection to identify obstacles and a rule-based decision-making mechanism to determine navigation actions, ensuring safe and efficient movement towards a target destination.
@@ -36,68 +35,79 @@ Follow the steps below to set up the project on your local machine.
    Open your terminal or command prompt and run:
 
    ```bash
-   git clone https://github.com/SamuelMLDev/CodeClause_Internship_drone-ai-navigation.git
+   git clone https://github.com/your-username/CodeClauseInternship_drone-ai-navigation.git
    ```
 
+   Replace `your-username` with your actual GitHub username.
 
 2. **Navigate to the Project Directory**
 
-    ```bash
-    cd CodeClause_Internship_drone-ai-navigation
-    ```
+   ```bash
+   cd CodeClauseInternship_drone-ai-navigation
+   ```
 
 3. **Create a Virtual Environment**
-It's recommended to use a virtual environment to manage dependencies.
 
-    ```bash
-    python -m venv venv
-    ```
+   It's recommended to use a virtual environment to manage dependencies.
+
+   ```bash
+   python -m venv venv
+   ```
 
 4. **Activate the Virtual Environment**
-Windows:
 
-    ```bash
-    venv\Scripts\activate
-    ```
+   - **Windows:**
 
-macOS/Linux:
+     ```bash
+     venv\Scripts\activate
+     ```
 
-    ```bash
-    source venv/bin/activate
-    ```
+   - **macOS/Linux:**
+
+     ```bash
+     source venv/bin/activate
+     ```
 
 5. **Upgrade Pip**
-Ensure you have the latest version of pip.
 
-    ```bash
-    pip install --upgrade pip
-    ```
+   Ensure you have the latest version of pip.
+
+   ```bash
+   pip install --upgrade pip
+   ```
 
 6. **Install Dependencies**
-    
-    ```bash
-    pip install -r requirements.txt
-    ```
-Note: If you encounter any dependency issues, ensure that the versions specified in requirements.txt are compatible with your system.
 
-### Usage
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+   > **Note:** If you encounter any dependency issues, ensure that the versions specified in `requirements.txt` are compatible with your system.
+
+## Usage
 
 After completing the installation steps, you can run the main application to start the drone's autonomous navigation.
 
-1. Ensure the Virtual Environment is Activated. If not already activated, activate it as shown in the Installation section.
+1. **Ensure the Virtual Environment is Activated**
 
-2. Run the Application
+   If not already activated, activate it as shown in the [Installation](#installation) section.
 
-    ```bash
-    python src/main.py
-    ```
+2. **Run the Application**
 
-3. Controls
-Exit the Application: Press the q key in the video window to terminate the application.
+   ```bash
+   python src/main.py
+   ```
 
-This will start the video capture from your webcam, perform object detection, update SLAM, and execute navigation actions based on the detected objects and drone's pose.
+   This will start the video capture from your webcam, perform object detection, update SLAM, and execute navigation actions based on the detected objects and drone's pose.
+
+3. **Controls**
+
+   - **Exit the Application:** Press the `q` key in the video window to terminate the application.
+
 
 
 ### Technologies Used
 
 Python, OpenCV, YOLOv5, NLTK, Flask, TensorFlow, PyTorch, Gym, Matplotlib, NumPy, Scikit-learn, Git, Visual Studio Code, SLAM.
+
+
