@@ -43,7 +43,7 @@ Follow the steps below to set up the project on your local machine.
 2. **Navigate to the Project Directory**
 
     ```bash
-    cd drone-ai
+    cd CodeClause_Internship_drone-ai-navigation
     ```
 
 3. **Create a Virtual Environment**
