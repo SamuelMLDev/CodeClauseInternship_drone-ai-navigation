@@ -66,6 +66,12 @@ macOS/Linux:
     source venv/bin/activate
     ```
 
+Windows:
+
+    ```bash
+    venv\Scripts\activate
+    ```
+
 5. **Upgrade Pip**
 Ensure you have the latest version of pip.
 
