@@ -143,11 +143,8 @@ class ComputerVision:
             # Update map points
             for kp in keypoints:
                 self.map_points.append(kp.pt)
-
-            # Draw matches (optional)
-            # matched_frame = cv2.drawMatches(frame, keypoints, self.prev_frame, self.prev_keypoints, matches[:10], None, flags=2)
         
-        # Update previous keypoints and descriptors
+        
         self.prev_keypoints = keypoints
         self.prev_descriptors = descriptors
 
